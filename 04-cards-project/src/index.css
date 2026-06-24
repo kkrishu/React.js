@@ -1,0 +1,113 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+.parent {
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  
+}
+
+.card {
+  height: 300px;
+  width: 250px;
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* TOP */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  padding: 2px;
+  object-fit: cover;
+}
+
+.saveBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* CENTER */
+.center h3 {
+  font-size: 20px;
+}
+
+.center span {
+  font-size: 12px;
+  color: gray;
+  margin-left: 5px;
+}
+
+.center h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* TAGS */
+.tags {
+  display: flex;
+  gap: 10px;
+}
+
+.tags h4 {
+  font-size: 12px;
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* BOTTOM */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom h3 {
+  font-size: 16px;
+}
+
+.bottom p {
+  font-size: 12px;
+  color: gray;
+}
+
+/* APPLY BUTTON */
+.applyBtn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
